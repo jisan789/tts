@@ -1,0 +1,8 @@
+{
+  "builds": [
+    { "src": "api/tts.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/api/tts", "dest": "api/tts.py" }
+  ]
+}
